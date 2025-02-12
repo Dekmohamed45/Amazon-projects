@@ -23,7 +23,7 @@ input, select, button {
 
 .button-primary {
   color: rgb(33, 33, 33);
-  background-color: rgb(255, 216, 20);
+  background-color: rgb(255, 224, 68);
   border: 1px solid rgb(252, 210, 0);
   border-radius: 8px;
   cursor: pointer;
@@ -35,9 +35,11 @@ input, select, button {
   border: 1px solid rgb(242, 194, 0);
 }
 
-.button-primary:active {
+.button-primary:active,
+.button-primary:focus {
   background: rgb(255, 216, 20);
   border-color: rgb(252, 210, 0);
+  outline: 2px solid rgb(113, 200, 226);
   box-shadow: none;
 }
 
@@ -90,5 +92,5 @@ select {
 
 select:focus,
 input:focus {
-  outline: 2px solid rgb(255, 153, 0);
+  outline: 2px solid rgb(53, 138, 163);
 }

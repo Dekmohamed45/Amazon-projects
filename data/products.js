@@ -134,7 +134,7 @@ const products = [
       stars: 5,
       count: 99999
     },
-    priceCents: 99,
+    priceCents: 0o0,
     keywords: [
       "bathroom",
       "cleaning"
