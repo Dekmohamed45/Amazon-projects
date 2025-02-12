@@ -148,7 +148,7 @@ const products = [
       stars: 4,
       count: 6
     },
-    priceCents: 75045,
+    priceCents: 160099,
     keywords: [
       "phone",
       "apple",
