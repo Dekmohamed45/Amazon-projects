@@ -1,46 +1,50 @@
 const products = [
   {
     id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
-    image: "images/products/athletic-cotton-socks-6-pairs.jpg",
-    name: "Black and Gray Athletic Cotton Socks - 6 Pairs",
+    image: "https://m.media-amazon.com/images/I/71x9JI-Il0L._AC_UY218_.jpg",
+    name: "2024 Macbook Air 13-inch Laptop - M3 chip",
     rating: {
       stars: 4.5,
-      count: 87
+      count: 1339
     },
-    priceCents: 1090,
+    priceCents: 89900,
     keywords: [
-      "socks",
-      "sports",
-      "apparel"
+      "laptop",
+      "apple",
+      "macbook",
+      "m3chip"
     ]
   },
   {
     id: "15b6fc6f-327a-4ec4-896f-486349e85a3d",
-    image: "images/products/intermediate-composite-basketball.jpg",
-    name: "Intermediate Size Basketball",
+    image: "https://m.media-amazon.com/images/I/71r1Ue1Zu2L._AC_UL320_.jpg",
+    name: "Wilson NCAA Basketball",
     rating: {
-      stars: 4,
-      count: 127
+      stars: 4.5,
+      count: 7482
     },
-    priceCents: 2095,
+    priceCents: 2195,
     keywords: [
       "sports",
-      "basketballs"
+      "basketballs",
+      "wilson",
+      "ncaa",
+      "nba"
     ]
   },
   {
     id: "83d4ca15-0f35-48f5-b7a3-1ea210004f2e",
-    image: "images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg",
-    name: "Adults Plain Cotton T-Shirt - 2 Pack",
+    image: "https://m.media-amazon.com/images/I/71pBm-r-kML._AC_UY218_.jpg",
+    name: "MZK 20V 13 inch Electric Lawn Mower",
     rating: {
-      stars: 4.5,
-      count: 56
+      stars: 3.5,
+      count: 13
     },
-    priceCents: 799,
+    priceCents: 12999,
     keywords: [
-      "tshirts",
-      "apparel",
-      "mens"
+      "Lawn",
+      "MZK",
+      "grass"
     ],
     type: "clothing",
     sizeChartLink: "images/clothing-size-chart.png"
@@ -77,16 +81,18 @@ const products = [
   },
   {
     id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
-    image: "images/products/6-piece-non-stick-baking-set.webp",
-    name: "6-Piece Nonstick, Carbon Steel Oven Bakeware Baking Set",
+    image: "https://m.media-amazon.com/images/I/61EIJ-qr1vL._AC_SY200_.jpg",
+    name: "Versace Dylan Blue After Shave Lotion 100ml",
     rating: {
-      stars: 4.5,
-      count: 175
+      stars: 4,
+      count: 412
     },
-    priceCents: 3499,
+    priceCents: 3799,
     keywords: [
-      "kitchen",
-      "cookware"
+      "cologne",
+      "aftershave",
+      "versace",
+      "designer"
     ]
   },
   {
@@ -106,30 +112,29 @@ const products = [
   },
   {
     id: "77919bbe-0e56-475b-adde-4f24dfed3a04",
-    image: "images/products/luxury-tower-set-6-piece.jpg",
-    name: "Luxury Towel Set - Graphite Gray",
+    image: "https://m.media-amazon.com/images/I/71f3NRbiq8L._AC_UL320_.jpg",
+    name: "VIVO Electric 60 x 24 inch Standing Desk",
     rating: {
       stars: 4.5,
       count: 144
     },
-    priceCents: 3599,
+    priceCents: 25999 ,
     keywords: [
-      "bathroom",
-      "washroom",
-      "restroom",
-      "towels",
-      "bath towels"
+      "standing desk",
+      "desk",
+      "remote",
+      "vivo"
     ]
   },
   {
     id: "3fdfe8d6-9a15-4979-b459-585b0d0545b9",
-    image: "images/products/liquid-laundry-detergent-plain.jpg",
-    name: "Liquid Laundry Detergent, 110 Loads, 82.5 Fl Oz",
+    image: "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1500,h_500/https://florencehc.com/wp-content/uploads/Black-Main-Logo-1500x500-1.png",
+    name: "Buy it now!!",
     rating: {
-      stars: 4.5,
-      count: 305
+      stars: 5,
+      count: 99999
     },
-    priceCents: 2899,
+    priceCents: 99,
     keywords: [
       "bathroom",
       "cleaning"
@@ -137,17 +142,18 @@ const products = [
   },
   {
     id: "58b4fc92-e98c-42aa-8c55-b6b79996769a",
-    image: "images/products/knit-athletic-sneakers-gray.jpg",
-    name: "Waterproof Knit Athletic Sneakers - Gray",
+    image: "https://m.media-amazon.com/images/I/31-6u85wcSL._AC_UY218_.jpg",
+    name: "Apple iPhone 16 - 128, Pink - Unlocked",
     rating: {
       stars: 4,
-      count: 89
+      count: 6
     },
-    priceCents: 3390,
+    priceCents: 75045,
     keywords: [
-      "shoes",
-      "running shoes",
-      "footwear"
+      "phone",
+      "apple",
+      "iphone",
+      "iphone16"
     ]
   },
   {
@@ -171,16 +177,20 @@ const products = [
   },
   {
     id: "aad29d11-ea98-41ee-9285-b916638cac4a",
-    image: "images/products/round-sunglasses-black.jpg",
-    name: "Round Sunglasses",
+    image: "https://m.media-amazon.com/images/I/31JaiPXYI8L._AC_UY218_.jpg",
+    name: "PS5 - Disc Version Console ",
     rating: {
       stars: 4.5,
-      count: 30
+      count:89
     },
-    priceCents: 1560,
+    priceCents: 52950,
     keywords: [
-      "accessories",
-      "shades"
+      "ps5",
+      "games",
+      "console",
+      "disc",
+      "sony",
+      "playstation"
     ]
   },
   {
