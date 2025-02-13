@@ -442,7 +442,7 @@ const products = [
     image: "images/products/men-athletic-shoes-green.jpg",
     name: "Men's Athletic Sneaker",
     rating: {
-      stars: 4,
+      stars: 3,
       count: 229
     },
     priceCents: 3890,
@@ -665,6 +665,49 @@ const products = [
       "hoodies",
       "apparel",
       "mens"
+    ]
+  },{
+    id: "f1a3b7c9-8d52-4e6f-a2b1-3cde98765432",
+    image: "https://m.media-amazon.com/images/I/31-FDtxAx1L.AC_SX250.jpg",
+    name:"CIDER Women's Puffer Jacket - Beige",
+    rating:{
+      stars: 4,
+      count: 54
+    },
+    priceCents: 4199,
+    keywords: [
+      "jackets",
+      "winter clothes",
+      "womens"
+    ]
+  },{
+    id: "a7d4f2c1-9b65-4e3a-b8d7-12ef3498c765",
+    image: "https://m.media-amazon.com/images/I/61OwgtcjPML._AC_UL320_.jpg",
+    name:"Cuisinart Coffee Maker - Single Serve 72-Ounce",
+    rating:{
+      stars: 4.5,
+      count: 17670
+    },
+    priceCents: 11990,
+    keywords: [
+      "espresso",
+      "coffee",
+      "brewing machine"
+    ]
+  },{
+    id: "e3b8a9f7-6542-4d1c-b3e2-78dc4501fa23",
+    image: "https://m.media-amazon.com/images/I/71eHnakcXWL._AC_UL320_.jpg",
+    name:"Little Live Pets My Puppy's Home- Mini",
+    rating:{
+      stars: 4.5,
+      count: 170
+    },
+    priceCents: 1890,
+    keywords: [
+      "puppy",
+      "little live pets",
+      "puppy",
+      "kids toys"
     ]
   }
 ];
